@@ -1,0 +1,12 @@
+//program to calculate compound interest
+//preprocessor directive- scanf(), printf();
+# include <stdio.h>
+int main () {
+    int principle=20000;
+    int rate=12;
+    int number=3;
+    int time=4;
+    int amount=principle*(1+rate/number)^number*time;
+    printf("The amount is %d\n", amount);
+    return 0;
+}
